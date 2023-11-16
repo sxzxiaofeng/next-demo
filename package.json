@@ -6,7 +6,8 @@
     "start": "next start",
     "seed": "node -r dotenv/config ./scripts/seed.js",
     "prettier": "prettier './{app,library}/**/*.{js,jsx}' --check",
-    "prettier:fix": "npm run prettier -- --write"
+    "prettier:fix": "npm run prettier -- --write",
+    "lint": "next lint"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
